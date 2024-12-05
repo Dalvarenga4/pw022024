@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web Personal</title>
+    <!-- Vinculación del archivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Encabezado del sitio -->
+    <header>
+        <h1>Bienvenido a Mi Sitio Web</h1>
+        <p>Este es un ejemplo de un sitio web con un tema personalizado.</p>
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre Mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección principal del contenido -->
+    <main class="container">
+        <!-- Sección Sobre Mí -->
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>Hola, soy un desarrollador web apasionado por crear
+            experiencias de usuario únicas y atractivas.</p>
+        </section>
+
+        <!-- Sección de Proyectos -->
+        <section id="proyectos">
+            <h2>Mis Proyectos</h2>
+            <article>
+                <h3>Proyecto 1</h3>
+                <p>Descripción del proyecto 1.</p>
+            </article>
+            <article>
+                <h3>Proyecto 2</h3>
+                <p>Descripción del proyecto 2.</p>
+            </article>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
